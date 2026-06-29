@@ -1,4 +1,4 @@
-// Intersection Observer for scroll animations
+// Intersection Observer for smooth reveal animations
 document.addEventListener('DOMContentLoaded', () => {
     const observerOptions = {
         root: null,
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
-                observer.unobserve(entry.target); // Run once
+                observer.unobserve(entry.target); 
             }
         });
     }, observerOptions);
