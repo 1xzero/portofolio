@@ -8,14 +8,14 @@
 */
 
 :root {
-  --bg-color: #0a0b0e;
-  --text-primary: #eaebed;
-  --text-secondary: #8a93a6;
-  --accent: #ff3366;
-  --border-color: rgba(234, 235, 237, 0.15);
-
-  --font-display: "Space Grotesk", sans-serif;
-  --font-body: "Plus Jakarta Sans", sans-serif;
+    --bg-color: #FDFBF7;        /* Cream / Warm Beige background */
+    --text-primary: #2A2421;    /* Deep Elegant Espresso Brown */
+    --text-secondary: #706561;  /* Muted Earthy Tone */
+    --accent: #C5A059;          /* Premium Soft Gold */
+    --border-color: rgba(42, 36, 33, 0.12);
+    
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
 }
 
 * {
